@@ -18,7 +18,7 @@ list1[0]="coconut"
 # In[3]:
 
 
-list1
+print(list1)
 
 
 # tuple
@@ -45,7 +45,7 @@ t1[5]
 
 
 t1[3]=55
-
+#it shows error because tuples are unmutable
 
 # dictionary
 
@@ -64,7 +64,7 @@ del my_dict['key4']
 # In[10]:
 
 
-my_dict
+print(my_dict)
 
 
 # In[11]:
@@ -76,11 +76,11 @@ deleted=my_dict.pop('key1')
 # In[12]:
 
 
-deleted
+print(deleted)
 
 
 # In[13]:
 
 
-my_dict
+print(my_dict)
 
